@@ -413,7 +413,7 @@ end
 local function OnUpdate(self, elapsed)
   -- Since Midnight (12)
   if C_CurveUtil then
-    self:SetAlphaFromBoolean(self.isOnGCD or false, 0, 1)
+    self:SetAlphaFromBoolean(self.isOnGCD == false, 1, 0) -- is on cooldown: isOnGCD == false
     if not self.durationObject then
       return
     end
@@ -513,3 +513,5 @@ function module:Lock()
     v.frame:SetPoint("CENTER", addon.anchor, "CENTER", v.pos.x, v.pos.y)
   end
 end
+
+
