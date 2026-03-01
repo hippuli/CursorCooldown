@@ -78,10 +78,10 @@ end
 
 function module:FixDatabase()
 	if self.db.profile.version then
+		if self.db.profile.visibility == nil then
+			self.db.profile.visibility = "gcd_casting"
+		end
 		-- nothing to do yet
-	end
-	if self.db.profile.visibility == nil then
-		self.db.profile.visibility = "gcd_casting"
 	end
 	self.db.profile.version = dbVersion
 end

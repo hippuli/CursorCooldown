@@ -300,14 +300,13 @@ function addon:FixDatabase()
 		end
 	end
 	if self.db.profile.version then
-		-- nothing to do yet
-	end
-	-- Role filter defaults for existing profiles
-	if self.db.profile.filterByRole == nil then
-		self.db.profile.filterByRole = false
-	end
-	if not self.db.profile.filterRoles then
-		self.db.profile.filterRoles = { TANK = true, HEALER = true, DAMAGER = true }
+		-- Role filter defaults for existing profiles
+		if self.db.profile.filterByRole == nil then
+			self.db.profile.filterByRole = false
+		end
+		if not self.db.profile.filterRoles then
+			self.db.profile.filterRoles = { TANK = true, HEALER = true, DAMAGER = true }
+		end
 	end
 	self.db.profile.version = dbVersion
 end

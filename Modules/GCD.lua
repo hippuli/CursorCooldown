@@ -36,6 +36,8 @@ end
 function module:FixDatabase()
   if self.db.profile.version then
     -- nothing to do yet
+
+    -- FIXME: See below: GetOptions - Classic gcd reactivation
   end
   self.db.profile.version = dbVersion
 end
