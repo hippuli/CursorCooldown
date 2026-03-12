@@ -180,7 +180,7 @@ function module:PopulateCdSpellsOptions()
             name = L["Remove Spell"],
             type = "execute",
             func = function()
-              tremove(cdSpells, i) -- FIXME: reload options page
+              tremove(cdSpells, i) -- FIXME
               options.args.spells.args[tostring(i)] = nil
               self:SPELLS_CHANGED()
               self:PopulateCdSpellsOptions()
