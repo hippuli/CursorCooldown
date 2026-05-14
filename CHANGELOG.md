@@ -1,6 +1,6 @@
 # Cursor Cooldown Reloaded by Kallye
 
-## [12.0.501](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.0.501) (2026-04-27)
-[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.0.103a...12.0.501) 
+## [12.0.502](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.0.502) (2026-05-09)
+[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.0.501...12.0.502) 
 
-- Bump 12.0.5  
+- Bump  
