@@ -137,9 +137,7 @@ end
 
 function module:PopulateCdSpellsOptions()
   local cdSpells = self.db.char.cdSpells
-  for _, v in pairs(options.args.spells.args.list) do
-    v = nil
-  end
+  options.args.spells.args.list.args = {}
   for i, v in ipairs(cdSpells) do
     if v.spellID ~= nil then
 
