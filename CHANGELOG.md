@@ -1,7 +1,6 @@
 # Cursor Cooldown Reloaded by Kallye
 
-## [12.0.703](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.0.703) (2026-07-23)
-[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.0.701...12.0.703) 
+## [12.1.001](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.1.001) (2026-08-10)
+[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.0.704a...12.1.001) 
 
-- :bug: Fix Cooldowns on all Classic versions  
-    Legacy code when auras not secrets  
+- :package: Midnight 12.1.0  
