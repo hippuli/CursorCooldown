@@ -1,6 +1,7 @@
 # Cursor Cooldown Reloaded by Kallye
 
-## [12.1.002](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.1.002) (2026-08-15)
-[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.1.001...12.1.002) 
+## [12.1.003](https://github.com/KaspOu/K-Cursor-Cooldown/tree/12.1.003) (2026-09-08)
+[Full Changelog](https://github.com/KaspOu/K-Cursor-Cooldown/compare/12.1.002...12.1.003) 
 
-- :package: Wow 3.80.2  
+- :art: Change logo  
+    Prepare 12.1.5  
